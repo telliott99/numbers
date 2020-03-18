@@ -1,0 +1,33 @@
+# First
+
+Numbers and proof
+Integers
+Arithmetic
+Primes
+Prime factorization
+Induction
+Sum of integers
+
+The real numbers
+Rational numbers
+Infinity
+Euclid's algorithm
+Real numbers
+
+Algebra
+Basic algebra
+Fibonacci sequence
+Exponential
+Logarithms
+Sum of squares
+Sum of cubes
+
+# Bonus
+
+Extra
+Pythagorean triples
+Cubics
+Continuum of numbers
+
+Addendum
+References
