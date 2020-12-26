@@ -9,7 +9,7 @@
 \usepackage{color}
 \usepackage{hyperref}
 
-\graphicspath{{/Users/telliott/Github/figures/}}
+\graphicspath{{/Users/telliott/Dropbox/Github-Math/figures/}}
 % \begin{center} \includegraphics [scale=0.4] {gauss3.png} \end{center}
 
 \title{Arithmetic}
@@ -43,7 +43,7 @@ Then
 \[ m + n = (p + q) \cdot d \]
 \[ m - n = (p - q) \cdot d \]
 
-\textcolor{red}{$\bullet$ \ If $d|m$ and $d|n$, $d$ also divides their sum and difference.} 
+$\bullet$ \ If $d|m$ and $d|n$, $d$ also divides their sum and difference.
 
 In general if
 \[ a + b = c \]
@@ -51,7 +51,7 @@ and $d$ divides any two of them, it divides the third.
 
 In the proof above, we used the principle that additional factors don't matter.
 
-\textcolor{red}{$\bullet$ \ If $d|n$ then $d|an$, where $a$ is any whole number.} 
+$\bullet$ \ If $d|n$ then $d|an$, where $a$ is any whole number.
 
 In particular, powers of $10$ don't matter.  If $d|n$, then $d$ divides any multiple of $n$, such as $100 \cdot n$.
 
@@ -91,6 +91,12 @@ How about $123456789$.  Add the digits:
 Do you see the trick there?
 
 So $123456789$ is evenly divisible by both $3$ and by $9$.
+
+\subsection*{casting out nines}
+
+As an aside, this trick with digit sums and $9$ is the basis for an error-checking method.  If two integers are multiplied together $m \cdot n = p$, then the product of the digit sums on the left-hand side must be equal to the digit sum on the right.  Two consecutive primes are $11677$ and $11681$.  The digit sums are $4$ and $8$.  The product is then $32$, whose sum is $5$.  
+
+We do the multiplication and obtain $136399037$.  Since that digit sum is also $5$, it is likely that we did not make an error, since if we had, the odds are that the digit sum would be different.
 
 \subsection*{divisibility by $7$}
 

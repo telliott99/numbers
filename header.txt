@@ -16,7 +16,7 @@
 
 %\setcounter{tocdepth}{0}
 
-\graphicspath{{/Users/telliott/Github/figures/}}
+\graphicspath{{_my_graphics_path}}
 
 \title{Numbers and proof}
 \author{Tom Elliott}
